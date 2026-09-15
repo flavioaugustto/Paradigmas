@@ -1,0 +1,43 @@
+Alunos: 
+Flávio Augusto da Silva | RA: 241599782
+
+2. Plankalkül não foi implementada em sua época. Ainda assim, por que ela é relevante para a história das linguagens? Cite três recursos antecipados por seu projeto e explique o valor de um deles.
+R: A Plankalkül é relevante na história porque foi o primeiro projeto de uma linguagem de programação de alto nível, desenvolvida por Konrad Zuse. Embora nunca tenha sido implementada na época, ela antecipou recursos cruciais como estruturas de dados hierárquicas, arrays e comandos condicionais. O valor dos arrays e registros, por exemplo, é que eles permitiram o agrupamento e a manipulação de dados de forma lógica, pavimentando o caminho para tipos de dados complexos que libertaram o programador de lidar apenas com bits e instruções de máquina soltas.
+
+4. Explique por que o projeto Fortran precisou convencer programadores de que código traduzido podia competir com código de máquina escrito à mão. Relacione desempenho, custo de programação e adoção.
+R: O projeto Fortran precisou convencer os programadores porque o tempo de processamento era absurdamente caro e a comunidade acreditava que um compilador jamais conseguiria gerar um código de máquina tão eficiente quanto o escrito à mão por especialistas. A relação foi ditada por uma mudança de paradigma: o Fortran conseguiu provar que o desempenho do seu código compilado era quase tão rápido quanto o manual, e ao mesmo tempo reduzia drasticamente o tempo, o esforço e o custo de programação, o que foi o motor decisivo para a sua rápida adoção na indústria.
+
+5. Lisp surgiu em um contexto diferente de Fortran. Compare os domínios, a representação de dados e o estilo de computação favorecido pelas duas linguagens. 
+R: Lisp e Fortran operavam em mundos opostos. O domínio do Fortran era o cálculo numérico e científico, utilizando arrays e números de ponto flutuante como representação de dados principal e favorecendo um estilo de computação estritamente imperativo. O Lisp surgiu no domínio da inteligência artificial, adotando listas encadeadas e símbolos para representar os dados, e favoreceu um estilo de computação funcional, baseado em recursão e manipulação simbólica em vez de processamento de equações.
+
+8. Compare Basic e PL/I como respostas ao desejo de ampliar o acesso ou o alcance da programação. Qual compromisso de projeto aparece em cada caso?
+R: Basic e PL/I tentaram expandir o alcance da programação com filosofias contrárias. O Basic focou em democratizar o acesso para estudantes e não-profissionais por meio do compartilhamento de tempo, e para isso assumiu o compromisso de sacrificar recursos avançados e velocidade de execução em prol da máxima simplicidade. O PL/I tentou ampliar o alcance atendendo simultaneamente aos mundos científico e comercial, e seu compromisso foi abraçar uma complexidade gigantesca de recursos, o que acabou tornando a linguagem muito difícil de aprender e de compilar eficientemente.
+
+10. Defina ortogonalidade no projeto de linguagens e use ALGOL 68 para discutir a diferença entre regularidade e simplicidade. Uma linguagem muito ortogonal é automaticamente fácil de usar?
+R: Ortogonalidade no projeto de linguagens significa ter um conjunto pequeno de primitivos que podem ser combinados de forma irrestrita, sem exceções arbitrárias. O ALGOL 68 levou isso ao limite e se tornou uma linguagem muito regular, já que suas regras valiam em qualquer contexto. No entanto, ele provou que regularidade não é o mesmo que simplicidade, pois as infinitas combinações possíveis geraram construções altamente complexas e difíceis de ler. Logo, uma linguagem muito ortogonal não é automaticamente fácil de usar.
+
+14. Compare o papel dos objetos em Smalltalk, C++ e Java. Inclua na
+resposta o compromisso de C++ com C e a estratégia de portabilidade
+de Java.
+R: Em Smalltalk o papel dos objetos é absoluto, sendo uma linguagem puramente orientada a objetos onde tudo se resolve por troca de mensagens. O C++ introduziu objetos de forma híbrida, assumindo o compromisso de manter compatibilidade retroativa com a linguagem C para garantir adoção e desempenho, o que forçou a manutenção de gerenciamento manual de memória e tipos primitivos. O Java buscou ser mais puro que o C++ para simplificar o uso, mas também manteve tipos primitivos por questão de desempenho, e sua grande estratégia foi a portabilidade focada no uso de bytecode rodando em uma Máquina Virtual, permitindo executar o código em qualquer sistema operacional.
+
+15. A primeira aplicação de Java não foi a Web, mas a Web impulsionou
+sua adoção. Explique como mudanças de contexto podem reposicionar
+uma linguagem.
+R: A primeira aplicação imaginada para o Java era o controle de eletrodomésticos e decodificadores de TV, um mercado que demorou a se concretizar. No entanto, quando a Web explodiu em popularidade, surgiu a necessidade de executar pequenos programas interativos e seguros dentro dos navegadores, os chamados Applets. Essa mudança radical de contexto transformou a portabilidade e a segurança do Java, antes pensadas para micro-ondas, nos recursos exatos que a internet precisava, reposicionando a linguagem para o sucesso.
+
+16. Compare Perl, JavaScript, PHP, Python, Ruby e Lua usando três
+eixos: domínio inicial, estruturas de dados e estratégia de
+implementação. Evite concluir que todas são iguais por serem
+chamadas de scripting.
+R: Essas linguagens possuem propósitos e estruturas bem diferentes. O Perl surgiu como ferramenta de administração de sistemas para textos, usando hashes integrados e compilação antes da execução. O JavaScript nasceu para automação no navegador, utilizando objetos baseados em protótipos com interpretação originalmente direta. O PHP foi criado para gerar páginas web dinâmicas, centrado em arrays associativos processados no lado do servidor. O Python buscou ser uma linguagem de uso geral legível, operando com listas e dicionários através de bytecode. O Ruby surgiu para ser um script orientado a objetos puro e interpretado. O Lua foi projetado como uma linguagem de extensão embutida ultraleve, usando tabelas como sua única estrutura de dados e um interpretador muito rápido.
+
+17. C# foi apresentada como evolução no ambiente .NET. Compare duas
+decisões de C# com suas correspondentes em Java ou C++ e explique o
+problema que pretendem resolver.
+R: O C# trouxe evoluções pragmáticas para o ambiente .NET. Uma decisão importante foi a criação nativa de propriedades, que resolveu o problema do código verboso do Java, onde era preciso escrever métodos get e set manualmente para encapsular dados. Outra decisão foi a implementação de delegates e eventos, que resolveu o problema da passagem de funções de forma orientada a objetos e segura, superando a perigosidade dos ponteiros de função do C++ e sendo mais direto que as classes aninhadas do Java.
+
+18. Diferencie XSLT e JSP quanto a entrada, processamento e saída. Por
+que ambas podem ser chamadas de linguagens híbridas de marcação e
+programação?
+R: O XSLT recebe um documento XML como entrada, processa os dados aplicando regras baseadas em templates, e gera novos documentos estruturados como saída. O JSP recebe requisições HTTP como entrada, processa misturando código de servidor com a página web, e cospe código HTML puro como saída. Ambas recebem o rótulo de linguagens híbridas de marcação e programação porque quebram a barreira tradicional, misturando a estrutura visual baseada em tags com lógica algorítmica, como loops e condicionais, para fabricar conteúdo de forma dinâmica.
